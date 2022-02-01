@@ -1,0 +1,28 @@
+p {
+    font-size: 20px;
+    background-color: black;
+    color: rgb(75, 147, 255); 
+}
+
+.chorus_1{
+    font-weight: bold;
+    color: rgb(172, 0, 172);
+    background-color: black;
+}
+
+.chorus_2{
+    font-weight:bold;
+    color:darkred;
+    background-color: black;
+}
+
+.chorus_3{
+    font-weight:bold;
+    color:rgba(255, 20, 145, 0.637);
+    background-color: black;
+}
+
+.link{
+    background-color: white;
+    color: black;
+}
