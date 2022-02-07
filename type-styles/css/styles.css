@@ -1,0 +1,79 @@
+html{
+    font-size: 24px;
+}
+
+body{
+    font-family: Arial, sans-serif
+}
+
+section{
+    margin-bottom: 100px;
+}
+
+.styledFont{
+    font-family: 'Raleway', sans-serif;
+}
+
+h1{
+    font-size: 1.75rem;
+    margin-bottom: 0.4em;
+}
+
+h2{
+    font-size: 1.2rem;
+    color:darkgray;
+    margin-bottom: 0.4em;
+}
+
+h3{
+    font-size: 0.6rem;
+    margin-bottom: 0.2em;
+    color: darkgray;
+    font-weight: 400;
+
+}
+
+p{
+    margin-top: 0;
+}
+
+section.fontWeight p.Bold {
+    font-weight: bold;
+}
+
+section.fontStyle p.Italic{
+    font-style: italic;
+}
+
+section.letterSpacing p.Wide{
+    letter-spacing: .3em;
+}
+
+section.letterSpacing p.Thin{
+    letter-spacing: -0.06em;
+}
+
+section.textDecor p.Underline{
+    text-decoration: underline;
+}
+
+section.textDecor p.LineThrough{
+    text-decoration: line-through;
+}
+
+section.textDecor p.overline{
+    text-decoration: overline;
+}
+
+section.textTransform p.Upper{
+    text-transform: uppercase;
+}
+
+section.textTransform p.lower{
+    text-transform: lowercase;
+}
+
+section.textTransform p.capital{
+    text-transform: capitalize;
+
+}
