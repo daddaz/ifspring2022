@@ -1,0 +1,167 @@
+body{
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+h1, h2 {
+    margin:0;
+}
+
+.contents {
+    width: 960px;
+    margin: auto;
+}
+
+header {
+    background-color: rgba(255,0,0,.5);
+    text-align: center;
+    background-image: url(https://img1.10bestmedia.com/Images/Photos/379272/GettyImages-104489865_54_990x660.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header .contents{
+    padding:152px 0 186px 0;
+  
+}
+
+header h1{
+    font-size: 80px;
+    color: white;
+}
+
+header h2{
+    font-size: 30px;
+    line-height:1.1;
+    color: white;
+}
+
+#section1{
+    background-color:rgba(255,174,237,1);
+    padding-bottom: 16px;
+    color: white;
+
+}
+
+#section1 img{
+    float: right;
+    width: 400px;
+    height: 300px;
+    margin: 0 0 20px 37px;
+    object-fit: cover;
+    border: 1px solid white;
+}
+
+#section1 .contents{
+    width: 960px;
+    margin: auto;
+    padding: 41px 0 20px 0;
+
+}
+
+#section1 h1{
+    margin-bottom: 32px;
+    text-align: center;
+    font-size:40px;
+}
+
+#section1  p{
+    font-size: 18px;
+    line-height: 1.4;
+    
+}
+
+#section2 {
+    background-color: rgba(36,190,255,1);
+    padding-bottom: 16px;
+}
+
+#section2 .contents {
+    width: 960px;
+    margin: auto;
+    padding: 41px 0 20px 0;
+}
+
+#section2 h1{
+    margin-bottom: 30px;
+    text-align: center;
+    font-size:40px;
+    color: black;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    line-height: 1.3;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#section2 img{
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    float: left;
+    margin-bottom: 24px;
+    margin-right: 12px;
+}
+
+h3{
+    font-size: 20px;
+    margin: 0;
+    color: black;
+}
+
+#section2 li{
+    padding-right: 30px;
+    color: black;
+}
+
+#section2 p{
+   line-height: 1.4; 
+   font-size: 18px;
+   margin-top: 7px;
+}
+
+#section3 {
+    background-color: rgba(45, 255, 179, 1);
+
+}
+
+#section3 .contents {
+    width: 960px;
+    margin: auto;
+    padding: 41px 0 20px 0;
+}
+
+#section3 h1{
+    color: black;
+    line-height: 1.56;
+    margin-bottom: 26px;
+    text-align: center;
+    font-size:40px;
+}
+
+#section3 p{
+    text-align: center;
+    font-size: 26px;
+    padding: 0 125px 0 125px;
+    margin-bottom: 84px;
+    padding-bottom: 15px;
+    line-height: 1.4;
+    color: black;
+}
+
+footer{
+    background-color: rgba(100, 0, 100, 1);
+
+}
+
+footer p{
+    font-size: 18px;
+    padding:27px 0 40px 33px; 
+    margin: 0; 
+    letter-spacing: 0;
+    
+}
