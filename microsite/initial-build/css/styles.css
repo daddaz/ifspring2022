@@ -1,0 +1,143 @@
+.home{
+    
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fefcea+0,f1da36+100;Gold+3D */
+background: #fefcea; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #fefcea 0%, #f1da36 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  #fefcea 0%,#f1da36 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  #fefcea 0%,#f1da36 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', endColorstr='#f1da36',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+.talk{
+    background-color: #f1da36;
+}
+
+.talk nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.talk nav ul li a{
+    font-size: 45px;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    padding: .2em .2em;
+    margin: 0 10px 0 10px;
+    text-decoration: none;
+}
+
+#home_intro h1{
+    text-align: center;
+    padding-top: 150px;
+    font-family: 'Outfit', sans-serif;
+    color:#6C4E00; 
+}
+
+#center_title h2{
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Outfit', sans-serif;
+    color:#6C4E00;
+    line-height: 1.5;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+#center_title p{
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    color:#6C4E00;
+    max-width: 500px;
+    margin: auto;
+}
+
+#icon_buttons ul {
+    list-style: none;
+}
+
+#icon_buttons a img{
+    width: 200px;
+    height: 200px;
+}
+
+#history a img {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    left: 68%;  
+}
+
+#talk a img{
+    position: relative;
+    left: 38%;
+    bottom: 125px;
+}
+
+#game a img{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    left: 68%;
+    bottom: 800px;
+}
+
+#bank a img{
+    position: relative;
+    left: 5%;
+    bottom: 995px;
+}
+
+#mobility a img{
+    position: relative;
+    left: 5%;  
+    bottom: 825px;
+}
+
+#page_top {
+    background-color: white;
+}
+
+#page_top h1{
+    text-align: center;
+}
+
+#page_top h1 a{
+    font-family: 'Outfit', sans-serif;
+    color: #6C4E00;
+    text-decoration: none;
+    font-size: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.talkPage h1{
+    font-family: 'Outfit', sans-serif;
+    margin-top: 100px;
+    font-size: 75px;
+}
+
+.talkPage img{
+    float: left;
+    width: 150px;
+    height: 150px; 
+    margin-left: 100px;
+    margin-top: 0;
+    
+}
+
+.talkPage p{
+    font-family: 'Outfit', sans-serif;
+    font-size: 30px;
+    max-width: 1000px;
+    margin: auto;
+    border: solid 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
