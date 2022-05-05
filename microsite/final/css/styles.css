@@ -1,0 +1,661 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+}
+
+.home{  
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fefcea+0,f1da36+100;Gold+3D */
+    background: radial-gradient(ellipse at center,  #fefcea 0%,#f1da36 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', endColorstr='#f1da36',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+
+.interior{
+    background-color: #f1da36;
+}
+
+.interior nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.interior nav ul li a{
+    font-size: 45px;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    padding: .2em .2em;
+    margin: 0 10px 0 10px;
+    text-decoration: none;
+}
+
+#home_intro h1{
+    text-align: center;
+    padding-top: 220px;
+    padding-left: 20px; 
+    font-family: 'Outfit', sans-serif;
+    color:#6C4E00; 
+}
+
+#center_title h2{
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Outfit', sans-serif;
+    color:#6C4E00;
+    line-height: 1.5;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+
+div#center_title{
+    background-image: url("../images/friends.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#center_title p{
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    color:#6C4E00;
+    max-width: 500px;
+    margin: auto;
+}
+
+#icon_buttons ul {
+    list-style: none;
+}
+
+
+#history a img {
+    width: 325px;
+    height: 200px;
+    position: absolute;
+    left: 68%; 
+    object-fit: cover;
+}
+
+#talk a img{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 39%;
+    object-fit: cover;
+}
+
+#game a img{
+    width: 375px;
+    height: 230px;
+    position: absolute;
+    left: 67%;
+    bottom: 485px;
+    object-fit: cover;
+}
+
+#bank a img{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 5%;
+    bottom: 10px;
+    object-fit: cover;
+}
+
+#mobility a img{
+    width: 275px;
+    height: 275px;
+    position: absolute;
+    left: 7%;  
+    bottom: 425px;
+    object-fit: cover;
+}
+
+#page_top {
+    background-color: white;
+    border: solid white 25px;
+}
+
+#page_top h1{
+    text-align: center;
+}
+
+#page_top h1 a{
+    font-family: 'Outfit', sans-serif;
+    color: #6C4E00;
+    text-decoration: none;
+    font-size: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.mobilityPage h1{
+    font-family: 'Outfit', sans-serif;
+    font-size: 75px;
+    text-align: center;
+}
+
+.mobilityPage img{
+    width: 300px;
+    height: 300px;
+    float: right;
+    padding-left: 30px;
+    padding-top: 30px;
+    
+}
+
+.mobilityPage p{
+    font-family: 'Outfit', sans-serif;
+    font-size: 30px;
+    margin: auto;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.talkPage h1{
+    font-family: 'Outfit', sans-serif;
+    font-size: 75px;
+    text-align: center;
+}
+
+.talkPage img{
+    width: 400px;
+    height: 400px;
+    float: right;
+    
+}
+
+
+.talkPage p{
+    font-family: 'Outfit', sans-serif;
+    font-size: 30px;
+    margin: auto;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.gamingPage h1{
+    font-family: 'Outfit', sans-serif;
+    font-size: 75px;
+    text-align: center;
+}
+
+.gamingPage img{
+    width: 500px;
+    height: 350px;
+    float: right;
+    
+}
+
+
+.gamingPage p{
+    font-family: 'Outfit', sans-serif;
+    font-size: 30px;
+    margin: auto;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.historyPage h1{
+    font-family: 'Outfit', sans-serif;
+    font-size: 75px;
+    text-align: center;
+}
+
+.historyPage img{
+    width: 500px;
+    height: 350px;
+    float: right;
+    
+}
+
+.historyPage p{
+    font-family: 'Outfit', sans-serif;
+    font-size: 30px;
+    margin: auto;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.bankingPage h1{
+    font-family: 'Outfit', sans-serif;
+    font-size: 75px;
+    text-align: center;
+}
+
+.bankingPage img{
+    width: 500px;
+    height: 350px;
+    float: right;
+}
+
+.bankingPage p{
+    font-family: 'Outfit', sans-serif;
+    font-size: 30px;
+    margin: auto;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+
+.grid_talk h1{
+    font-family: 'Outfit', sans-serif;
+    font-size: 75px;
+    text-align: center;
+}
+
+
+.grid_talk ul img{
+    width: 650px;
+    height: 500px;
+    border: solid black 3px;
+}
+
+.grid_talk ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    justify-items: center;
+}
+
+.grid_mobility h1{
+    font-family: 'Outfit', sans-serif;
+    font-size: 75px;
+    text-align: center;
+}
+
+.grid_mobility ul img{
+    width: 100%;
+    height: 100%;
+    border: solid black 3px;
+}
+
+.grid_mobility ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    justify-items: center;
+}
+
+.grid_gaming h1{
+    font-family: 'Outfit', sans-serif;
+    font-size: 75px;
+    text-align: center;
+}
+
+.grid_gaming ul img{
+    width: 650px;
+    height: 500px;
+    border: solid black 3px;
+}
+
+.grid_gaming ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    justify-items: center;
+}
+
+.grid_banking h1{
+    font-family: 'Outfit', sans-serif;
+    font-size: 75px;
+    text-align: center;
+}
+
+.grid_banking ul img{
+    width: 550px;
+    height: 400px;
+    border: solid black 3px;
+}
+
+.grid_banking ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none; 
+    justify-items: center;
+}
+
+
+@media(max-width:1193px){
+
+
+    .home{
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fefcea+0,f1da36+100;Gold+3D */
+        background: #fefcea; /* Old browsers */
+        background: -moz-linear-gradient(top,  #fefcea 0%, #f1da36 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top,  #fefcea 0%,#f1da36 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom,  #fefcea 0%,#f1da36 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', endColorstr='#f1da36',GradientType=0 ); /* IE6-9 */
+    }
+
+    #home_intro{
+        background-color: white;
+    }
+
+    #home_intro h1{
+        text-align: center;
+        font-family: 'Outfit', sans-serif;
+        color:#6C4E00; 
+        padding: 0;
+        margin: auto;
+        /* background-image: ;*/
+    }
+
+    #center_title h2{
+        text-align: center;
+        font-size: 100px;
+        padding: 0;
+        font-family: 'Outfit', sans-serif;
+        color:#6C4E00;
+   
+    }
+
+    #center_title p{
+        font-family: 'Outfit', sans-serif;
+        text-align: center;
+        color:#6C4E00;
+        max-width: 500px;
+        margin: auto;
+    }
+
+   
+
+    #history a img {
+        position:static;
+        text-align:center;
+        left: 0; 
+        float: none;
+        width: 100%;
+        height: auto;
+        margin: 0 0 0 0;
+        object-fit: cover;
+        padding-left: 0;
+        padding-right: 0; 
+        padding-top: 50px;
+        margin-left: 0; 
+    }
+    
+    #talk a img{
+        position: static;
+        text-align:center;
+        left: 0;
+        bottom: 0;
+        float: none;
+        width: 100%;
+        height: auto;
+        margin: 0 0 0 0;
+        object-fit: cover;
+        padding-left: 0;
+        padding-right: 0; 
+        margin-left: 0; 
+    }
+    
+    #game a img{
+        position: static;
+        text-align:center;
+        left: 0;
+        bottom: 0;
+        float: none;
+        width: 100%;
+        height: auto;
+        margin: 0 0 0 0;
+        object-fit: cover;
+        padding-left: 0;
+        padding-right: 0; 
+        margin-left: 0;  
+    }
+    
+    #bank a img{
+        position: static;
+        text-align:center;
+        left: 0;
+        bottom: 0;
+        float: none;
+        width: 100%;
+        height: auto;
+        margin: 0 0 0 0;
+        object-fit: cover;
+        padding-left: 0;
+        padding-right: 0;  
+        margin-left: 0; 
+    }
+    
+    #mobility a img{
+        position: static;
+        text-align:center;
+        left: 0;
+        bottom: 0;
+        float: none;
+        width: 100%;
+        height: auto;
+        margin: 0 0 0 0;
+        object-fit: cover;
+        padding-left: 0;
+        padding-right: 0; 
+        margin-left: 0; 
+        padding-bottom: 30px;
+    }
+
+    #page_top nav ul{
+        display: block;
+        text-align: center;
+        font-size: 0.8rem;
+    }
+
+    .mobilityPage h1{
+        font-family: 'Outfit', sans-serif;
+        font-size: 75px;
+        text-align: center;
+        margin: auto;
+        padding-top: 100px; 
+    }
+    
+    .mobilityPage p{
+        font-family: 'Outfit', sans-serif;
+        font-size: 1.5rem;
+        margin: auto;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .mobilityPage img{
+        float: none;
+        width: 100%;
+        height: auto;
+        margin: 0 0 0 0;
+        object-fit: cover;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .grid_mobility ul img{
+       width: 100%;
+        height: auto;
+        padding-left: 0; 
+        object-fit: cover;
+    }
+
+    .grid_mobility ul{
+        display: block;
+        justify-items: center;
+    }
+    
+    .talkPage h1{
+        font-family: 'Outfit', sans-serif;
+        font-size: 75px;
+        text-align: center;
+        margin: auto;
+        padding-top: 100px; 
+    }
+    
+    .talkPage img{
+        float: none;
+        width: 100%;
+        height: auto;
+        margin: 0 0 0 0;
+        object-fit: cover;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .talkPage p{
+        font-family: 'Outfit', sans-serif;
+        font-size: 30px;
+        margin: auto;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .grid_talk ul img{
+        width: 100%;
+        height: auto;
+        padding-left: 0; 
+        object-fit: cover;
+    }
+    
+    .grid_talk ul{
+        display: block;
+        justify-items: center;
+    }
+    
+    .historyPage h1{
+        font-family: 'Outfit', sans-serif;
+        font-size: 75px;
+        text-align: center;
+        margin: auto;
+        padding-top: 100px; 
+    }
+    
+    .historyPage img{
+        float: none;
+        width: 100%;
+        height: auto;
+        margin: 0 0 0 0;
+        object-fit: cover;
+        padding-left: 0;
+        padding-right: 0;    
+    }
+    
+    .historyPage p{
+        font-family: 'Outfit', sans-serif;
+        font-size: 30px;
+        margin: auto;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .grid_history ul img{
+        width: 100%;
+        height: auto;
+        padding-left: 0; 
+        object-fit: cover;
+    }
+
+    .grid_history ul{
+        display: block;
+        justify-items: center;
+    }
+
+    .gamingPage h1{
+        font-family: 'Outfit', sans-serif;
+        font-size: 75px;
+        text-align: center;
+        margin: auto;
+        padding-top: 100px; 
+    }
+    
+    .gamingPage img{
+        float: none;
+        width: 100%;
+        height: auto;
+        margin: 0 0 0 0;
+        object-fit: cover;
+        padding-left: 0;
+        padding-right: 0; 
+    }
+    
+    .gamingPage p{
+        font-family: 'Outfit', sans-serif;
+        font-size: 30px;
+        margin: auto;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .grid_gaming ul img{
+        width: 100%;
+        height: auto;
+        padding-left: 0; 
+        object-fit: cover;
+    }
+
+    .grid_gaming h1{
+     font-family: 'Outfit', sans-serif;
+        font-size: 75px;
+        text-align: center;
+        margin: auto;
+     padding-top: 100px; 
+}
+
+    .grid_gaming ul{
+        display: block;
+        justify-items: center;
+    }
+
+    .bankingPage h1{
+        font-family: 'Outfit', sans-serif;
+        font-size: 75px;
+        text-align: center;
+        margin: auto;
+        padding-top: 100px; 
+    }
+    
+    .bankingPage img{
+        float: none;
+        width: 100%;
+        height: auto;
+        margin: 0 0 0 0;
+        object-fit: cover;
+        padding-left: 0;
+        padding-right: 0; 
+    }
+    
+    .bankingPage p{
+        font-family: 'Outfit', sans-serif;
+        font-size: 30px;
+        margin: auto;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .grid_banking ul img{
+        width: 100%;
+        height: auto;
+        padding-left: 0; 
+        object-fit: cover;
+    }
+
+    .grid_banking ul{
+        display: block;
+        justify-items: center;
+    }
+
+    .grid_banking h1{
+        font-family: 'Outfit', sans-serif;
+        font-size: 75px;
+        text-align: center;
+        margin: auto;
+        padding-top: 100px; 
+    }
+
+
+    
+}
